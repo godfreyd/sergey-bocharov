@@ -2,7 +2,7 @@ import React, { FC, useRef, useEffect, useState } from 'react'
 import { gsap } from "gsap";
 import styles from './Headline.module.scss' 
 
-const useInterval = (callback: undefined, delay?: number) => {
+const useInterval = (callback: () => void, delay?: number) => {
     const savedCallback = useRef();
   
     // Remember the latest callback.
