@@ -1,17 +1,10 @@
-import React, { useRef, useEffect } from 'react';
-import gsap from 'gsap';
+import React from 'react';
 import Link from 'next/link';
 import { BaseLayout } from '../components/layouts/BaseLayout';
+import { Headline } from '../components/Headline';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
-    const boxRef = useRef();
-
-    // wait until DOM has been rendered
-    // useEffect(() => {
-    //   gsap.to(boxRef.current, { rotation: "+=360" });
-    // });
-
     return (
         <BaseLayout>
             <>
@@ -29,10 +22,8 @@ export default function Home() {
                     </a>
                 </h1>
 
-                {/* <div  className="box" ref={boxRef}>Hello</div> */}
-
                 <p className={styles.description}>
-                    I’m a Frontend Team Lead at{' '}
+                    I’m a frontend team lead at{' '}
                     <Link href="https://www.sberbank.com/index">
                         <a>Sber</a>
                     </Link>
@@ -41,14 +32,18 @@ export default function Home() {
                     <code className={styles.code}>JS</code>,{' '}
                     <code className={styles.code}>Node.js</code> and{' '}
                     <code className={styles.code}>Python</code>.<br />I speak at
-                    CONFERENCES and make VIDEOS.
+                    conferences and make videos.
                     <br />
                 </p>
 
-                <p className={styles.Box}>
-                    I make digital (and magical) ...
-                    {/* <Counter/> */}
-                </p>
+            <div className={styles.Box}>
+            <p >
+                                I make magical ...
+                              
+                            </p>
+                            <Headline/>
+            </div>
+
 
                 <div className={styles.grid}>
                     <a href="/about" className={styles.card}>
