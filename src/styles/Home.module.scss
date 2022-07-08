@@ -1,17 +1,3 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .box {
   width: 100px;
   height: 100px;
@@ -23,23 +9,6 @@
   background-color: var(--green);
   font-weight: 600;
   color: var(--light);
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-
-  & p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-grow: 1;
-  }
-
 }
 
 .title {
