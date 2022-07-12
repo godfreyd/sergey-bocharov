@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { BaseLayout } from '../components/layouts/BaseLayout';
 import { Headline } from '../components/Headline';
+import { Title } from '../components/Title';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -11,16 +12,15 @@ export default function Home() {
                 <figure className={styles.user}>
                     <img src="/sergeybocharov.jpg" alt="Sergey Bocharov" />
                 </figure>
-                <h1 className={styles.title}>
-                    Hi. I'm{' '}
+
+                <Title tag="h1">Hi. I'm{' '}
                     <a
                         target="_blank"
                         href="https://www.linkedin.com/in/bocharovsergey"
                         rel="noreferrer"
                     >
                         Sergey Bocharov
-                    </a>
-                </h1>
+                    </a></Title>
 
                 <p className={styles.description}>
                     I’m a frontend team lead at{' '}
@@ -47,19 +47,19 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a href="/about" className={styles.card}>
-                        <h2>About &rarr;</h2>
+                        <Title tag="h4">About &rarr;</Title>
                         <p>Find more information about me.</p>
                     </a>
 
-                    <a href="#" className={styles.card}>
-                        <h2>Projects &rarr;</h2>
+                    <a href="/projects" className={styles.card}>
+                        <Title tag="h4">Projects &rarr;</Title>
                         <p>
                             Learn more about my projects on CodePen or GitHub!
                         </p>
                     </a>
 
                     <a href="#" className={styles.card}>
-                        <h2>Writing &rarr;</h2>
+                        <Title tag="h4">Writing &rarr;</Title>
                         <p>
                             Sometimes I write for Smashing Magazine, Medium, and
                             others. My writing on this site is mostly personal.
@@ -67,7 +67,7 @@ export default function Home() {
                     </a>
 
                     <a href="#" className={styles.card}>
-                        <h2>Speeking &rarr;</h2>
+                        <Title tag="h4">Speeking &rarr;</Title>
                         <p>
                             These are conferences I will or have spoken at, as
                             well as summaries of the talks I’ve given.
