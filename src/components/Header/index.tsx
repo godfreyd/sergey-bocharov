@@ -6,11 +6,6 @@ export interface IHeader {
 }
 
 export const Header: FC<IHeader> = ({ children }) => {
-
-    if (typeof window !== "undefined") {
-        console.log('++++', window.history, window.history.length)
-    }
-
     return <div className={styles.Header}>{children}</div>
 }
     

@@ -1,15 +1,23 @@
 import React, { FC } from 'react';
 import styles from './Timeline.module.scss'
+import { Title } from '../Title';
 
-type IData = {
+type Employer = {
+    logo: string;
+    name: string;
+    url: string;
+}
+
+type Data = {
+    startDate: string;
+    endDate: string;
+    employer: Employer;
     position: string;
-    date: string;
-    place?: string;
     description?: string;
 };
 
 interface ITimeline {
-    data: IData[];
+    data: Data[];
 }
 
 export const Timeline: FC<ITimeline> = ({data}: ITimeline) => {
@@ -18,8 +26,17 @@ export const Timeline: FC<ITimeline> = ({data}: ITimeline) => {
             {
                 data.map((item) => {
                     return (
-                        <li key={item.date} className={styles.Item}>
-                            Привет
+                        <li key={item.startDate} className={styles.Item}>
+                            <div className={styles.LogoWraper}>
+                                <a href={item.employer.url} data-name={item.employer.name} target="_blank" >
+                                    <div className={styles.Logo} /> 
+                                </a>
+                            <Title tag="h5">{item.startDate} — {item.endDate}</Title>
+                            </div>
+     
+                            <div>
+                                {item.description}
+                            </div>
                         </li>
                     )
                 })
