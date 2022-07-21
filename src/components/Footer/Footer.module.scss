@@ -1,16 +1,18 @@
 .Footer {
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
+    padding: 2rem;
     border-top: 1px solid #eaeaea;
+    display: flex;
     justify-content: center;
     align-items: center;
-  
+
     & p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-grow: 1;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 22px;
     }
-  
+
+    & img {
+        padding-right: 3px;
+    }
 }

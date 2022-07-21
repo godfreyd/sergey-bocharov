@@ -34,9 +34,9 @@ export const Timeline: FC<ITimeline> = ({data}: ITimeline) => {
                             <Title tag="h5">{item.startDate} — {item.endDate}</Title>
                             </div>
      
-                            <div>
+                            <p>
                                 {item.description}
-                            </div>
+                            </p>
                         </li>
                     )
                 })

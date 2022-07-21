@@ -1,8 +1,9 @@
 .Container {
     position: relative;
     margin: 40px  0 40px 380px;
+    max-width: 768px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         margin: 20px;
     }
 }

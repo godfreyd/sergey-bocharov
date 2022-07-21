@@ -5,29 +5,24 @@ import styles from './Footer.module.scss';
 export const Footer: FC = () => (
     <footer className={styles.Footer}>
         <p>
-            Follow me on &nbsp;
-            <Link
+            Follow me on <Link
                 href="https://codepen.io/ibemed"
                 rel="noopener noreferrer"
                 target="_blank"
             >
                 <a>
                     <img alt="CodePen" src="/CodePen.svg" />
-                    &nbsp; CodePen
+                    CodePen
                 </a>
-            </Link>{' '}
-            &nbsp; or &nbsp;{' '}
-            <Link
+            </Link> or <Link
                 href="https://github.com/godfreyd"
                 rel="noopener noreferrer"
                 target="_blank"
             >
                 <a>
                     <img alt="GitHub" src="/GitHub.svg" />
-                    &nbsp;GitHub
+                    GitHub
                 </a>
-            </Link>
-            &nbsp; if you want, I suppose.
-        </p>
+            </Link> if you want, I suppose.</p>
     </footer>
 );
