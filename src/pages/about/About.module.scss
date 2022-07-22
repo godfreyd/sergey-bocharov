@@ -1,9 +1,29 @@
 .Container {
     position: relative;
-    margin: 40px  0 40px 380px;
+    margin: 0;
+    padding: 0;
     max-width: 768px;
+}
+
+.List {
+    position: relative;
+    margin: 40px  0 40px 380px;
 
     @media (max-width: 768px) {
         margin: 20px;
     }
+}
+
+.Experiences {
+    span:not(:last-child):after {
+        content: ',';
+    }
+
+    span:last-child:after {
+        content: '.';
+    }
+}
+
+.Subtitle {
+    font-weight: bold;
 }

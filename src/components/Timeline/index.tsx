@@ -28,16 +28,16 @@ interface ITimeline {
 export const Timeline: FC<ITimeline> = ({ data }: ITimeline) => (
     <ul className={styles.Timeline}>
         {data.map(item => (
-                        <li key={item.startDate} className={styles.Item}>
-                            <div className={styles.LogoWraper}>
-                                <a href={item.employer.url} data-name={item.employer.name} target="_blank" >
-                                    <div className={styles.Logo} /> 
-                                </a>
-                            <Title tag="h5">{item.startDate} — {item.endDate}</Title>
-                            </div>
-                            <Cut hide="Hide" visible={item.description.visible} invisible={item.description.invisible}/>
-                        </li>
-                    ))
-        })}
+            <li key={item.startDate} className={styles.Item}>
+                <div className={styles.LogoWraper}>
+                    <a href={item.employer.url} data-name={item.employer.name} target="_blank" >
+                        <div className={styles.Logo} /> 
+                    </a>
+                    <Title tag="h5">{item.startDate} — {item.endDate}</Title>
+                </div>
+                <Title tag="h5">{item.position}</Title>
+                <Cut noEllipsis>{item.description.visible}</Cut>
+            </li>
+        ))}
     </ul>
 );
