@@ -1,31 +1,33 @@
 import React, { FC } from 'react';
-import styles from './Timeline.module.scss'
 import { Title } from '../Title';
+import { Cut } from '../Cut';
+import styles from './Timeline.module.scss';
 
 type Employer = {
-    logo: string;
     name: string;
     url: string;
-}
+};
+
+type Description = {
+    visible: string;
+    invisible: string;
+};
 
 type Data = {
     startDate: string;
     endDate: string;
     employer: Employer;
     position: string;
-    description?: string;
+    description: Description;
 };
 
 interface ITimeline {
     data: Data[];
 }
 
-export const Timeline: FC<ITimeline> = ({data}: ITimeline) => {
-    return (
-        <ul className={styles.Timeline}>
-            {
-                data.map((item) => {
-                    return (
+export const Timeline: FC<ITimeline> = ({ data }: ITimeline) => (
+    <ul className={styles.Timeline}>
+        {data.map(item => (
                         <li key={item.startDate} className={styles.Item}>
                             <div className={styles.LogoWraper}>
                                 <a href={item.employer.url} data-name={item.employer.name} target="_blank" >
@@ -33,14 +35,9 @@ export const Timeline: FC<ITimeline> = ({data}: ITimeline) => {
                                 </a>
                             <Title tag="h5">{item.startDate} — {item.endDate}</Title>
                             </div>
-     
-                            <p>
-                                {item.description}
-                            </p>
+                            <Cut hide="Hide" visible={item.description.visible} invisible={item.description.invisible}/>
                         </li>
-                    )
-                })
-            }
-        </ul>
-    )
-}
+                    ))
+        })}
+    </ul>
+);

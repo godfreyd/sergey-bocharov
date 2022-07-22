@@ -5,7 +5,8 @@ import styles from './Footer.module.scss';
 export const Footer: FC = () => (
     <footer className={styles.Footer}>
         <p>
-            Follow me on <Link
+            Follow me on{' '}
+            <Link
                 href="https://codepen.io/ibemed"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -14,7 +15,9 @@ export const Footer: FC = () => (
                     <img alt="CodePen" src="/CodePen.svg" />
                     CodePen
                 </a>
-            </Link> or <Link
+            </Link>{' '}
+            or{' '}
+            <Link
                 href="https://github.com/godfreyd"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -23,6 +26,8 @@ export const Footer: FC = () => (
                     <img alt="GitHub" src="/GitHub.svg" />
                     GitHub
                 </a>
-            </Link> if you want, I suppose.</p>
+            </Link>{' '}
+            if you want, I suppose.
+        </p>
     </footer>
 );

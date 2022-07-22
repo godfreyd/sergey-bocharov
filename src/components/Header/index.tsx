@@ -5,8 +5,6 @@ export interface IHeader {
     children?: ReactNode;
 }
 
-export const Header: FC<IHeader> = ({ children }) => {
-    return <div className={styles.Header}>{children}</div>
-}
-    
-
+export const Header: FC<IHeader> = ({ children }) => (
+    <div className={styles.Header}>{children}</div>
+);

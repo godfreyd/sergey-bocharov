@@ -20,7 +20,6 @@
     "incremental": true,
     "declaration": true,
     "declarationDir": "dist",
-    "emitDeclarationOnly": true,
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

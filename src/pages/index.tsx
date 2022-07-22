@@ -13,14 +13,16 @@ export default function Home() {
                     <img src="/sergeybocharov.jpg" alt="Sergey Bocharov" />
                 </figure>
 
-                <Title tag="h1">Hi. I'm{' '}
+                <Title tag="h1">
+                    Hi. I'm{' '}
                     <a
                         target="_blank"
                         href="https://www.linkedin.com/in/bocharovsergey"
                         rel="noreferrer"
                     >
                         Sergey Bocharov
-                    </a></Title>
+                    </a>
+                </Title>
 
                 <p className={styles.description}>
                     I’m a frontend team lead at{' '}
@@ -36,14 +38,10 @@ export default function Home() {
                     <br />
                 </p>
 
-            <div className={styles.Box}>
-            <p >
-                                I make magical ...
-                              
-                            </p>
-                            <Headline/>
-            </div>
-
+                <div className={styles.Box}>
+                    <p>I make magical ...</p>
+                    <Headline />
+                </div>
 
                 <div className={styles.grid}>
                     <a href="/about" className={styles.card}>
