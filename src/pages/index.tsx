@@ -23,7 +23,6 @@ export default function Home() {
                         Sergey Bocharov
                     </a>
                 </Title>
-
                 <p className={styles.description}>
                     I’m a frontend team lead at{' '}
                     <Link href="https://www.sberbank.com/index">
@@ -37,12 +36,10 @@ export default function Home() {
                     conferences and make videos.
                     <br />
                 </p>
-
                 <div className={styles.Box}>
                     <p>I make magical ...</p>
                     <Headline />
                 </div>
-
                 <div className={styles.grid}>
                     <a href="/about" className={styles.card}>
                         <Title tag="h4">About &rarr;</Title>
@@ -52,11 +49,11 @@ export default function Home() {
                     <a href="/projects" className={styles.card}>
                         <Title tag="h4">Projects &rarr;</Title>
                         <p>
-                            Learn more about my projects on CodePen or GitHub!
+                            Learn more about my projects on GitHub!
                         </p>
                     </a>
 
-                    <a href="#" className={styles.card}>
+                    <a href="/writing" className={styles.card}>
                         <Title tag="h4">Writing &rarr;</Title>
                         <p>
                             Sometimes I write for Smashing Magazine, Medium, and
@@ -64,8 +61,8 @@ export default function Home() {
                         </p>
                     </a>
 
-                    <a href="#" className={styles.card}>
-                        <Title tag="h4">Speeking &rarr;</Title>
+                    <a href="/speaking" className={styles.card}>
+                        <Title tag="h4">Speaking &rarr;</Title>
                         <p>
                             These are conferences I will or have spoken at, as
                             well as summaries of the talks I’ve given.

@@ -2,6 +2,7 @@ import { BaseLayout } from '../../components/layouts/BaseLayout';
 import { Button } from '../../components/Button';
 import { Title } from '../../components/Title';
 import { Timeline } from '../../components/Timeline';
+import { Section } from '../../components/Section';
 import style from './About.module.scss';
 
 const data = [
@@ -25,7 +26,7 @@ const data = [
             name: 'Yandex',
             url: 'https://yandex.com/company/',
         },
-        position: 'Frontend developer/Technical writer',
+        position: 'Frontend developer/Head of technical documentation group',
         description: {
             visible: '',
         },
@@ -63,19 +64,19 @@ const Experiences = [
 const About = () => (
     <BaseLayout>
         <Title tag="h1">About</Title>
-        <section className={style.Container}>
+        <Section>
             <p>
                 <span className={style.Subtitle}>Experience:</span>
                 <span className={style.Experiences}>{
                     Experiences.map((item) => (<><span><code key={item}>{item}</code></span>{' '}</>))
                 }</span>
             </p>
-        </section>
-        <section className={style.Container}>
+        </Section>
+        <Section>
             <div className={style.List}>
                 <Timeline data={data} />
             </div>
-        </section>
+        </Section>
         <Button onClick={() => window.history.back()}>Back</Button>
     </BaseLayout>
 );

@@ -1,12 +1,39 @@
 import { BaseLayout } from '../../components/layouts/BaseLayout';
 import { Button } from '../../components/Button';
 import { Title } from '../../components/Title';
+import { Section } from '../../components/Section';
+import Link  from 'next/link';
 
 function Projects() {
     return (
         <BaseLayout>
             <Title tag="h1">Projects</Title>
-
+            <Section>
+                <ul>
+                    <li>
+                        <Link href="https://github.com/LookingSchools/ui">
+                            <a target="_blank"><code>@lookingschools/ui</code></a>
+                        </Link>
+                        <p>UI Kit build on React. <Link href="http://godfreyd.github.io/dist/?path=/story/amountpicker--playground">
+                            <a target="_blank">Demo</a>
+                        </Link>.</p>
+                    </li>
+                    <li>
+                        
+                        <Link href="https://github.com/bem/yandex-ui" >
+                            <a target="_blank"><code>@yandex/ui</code></a>
+                        </Link>
+                        <p>Yandex UI Kit build on React and bem-react.</p>
+                    </li>
+                    <li>
+                        <Link href="https://github.com/godfreyd/react-redux-ssr">
+                            <a target="_blank"><code>react-redux-ssr</code></a>
+                        </Link>
+                        <p>SSR build on React.</p>
+                    </li>
+        
+                </ul>
+            </Section>
             <Button onClick={() => window.history.back()}>Back</Button>
         </BaseLayout>
     );

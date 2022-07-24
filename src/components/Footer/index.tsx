@@ -6,7 +6,7 @@ export const Footer: FC = () => (
     <footer className={styles.Footer}>
         <p>
             Follow me on{' '}
-            <Link
+            {/* <Link
                 href="https://codepen.io/ibemed"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -16,18 +16,28 @@ export const Footer: FC = () => (
                     CodePen
                 </a>
             </Link>{' '}
+            or{' '} */}
+            <Link
+                href="https://www.linkedin.com/in/bocharovsergey/"
+                rel="noopener noreferrer"
+               
+            >
+                <a  target="_blank">
+                    <img alt="LinkedIn" src="/Linkedin.svg" />
+                    Linkedin
+                </a>
+            </Link>{' '}
             or{' '}
             <Link
                 href="https://github.com/godfreyd"
                 rel="noopener noreferrer"
-                target="_blank"
             >
-                <a>
+                <a target="_blank">
                     <img alt="GitHub" src="/GitHub.svg" />
                     GitHub
                 </a>
             </Link>{' '}
-            if you want, I suppose.
+            if you want, I suppose. Also you can <a href="mailto:sergei-b84@bk.ru">write me</a> .
         </p>
     </footer>
 );
