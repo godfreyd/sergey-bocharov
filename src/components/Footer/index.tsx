@@ -20,24 +20,21 @@ export const Footer: FC = () => (
             <Link
                 href="https://www.linkedin.com/in/bocharovsergey/"
                 rel="noopener noreferrer"
-               
             >
-                <a  target="_blank">
+                <a target="_blank">
                     <img alt="LinkedIn" src="/Linkedin.svg" />
                     Linkedin
                 </a>
             </Link>{' '}
             or{' '}
-            <Link
-                href="https://github.com/godfreyd"
-                rel="noopener noreferrer"
-            >
+            <Link href="https://github.com/godfreyd" rel="noopener noreferrer">
                 <a target="_blank">
                     <img alt="GitHub" src="/GitHub.svg" />
                     GitHub
                 </a>
             </Link>{' '}
-            if you want, I suppose. Also you can <a href="mailto:sergei-b84@bk.ru">write me</a> .
+            if you want, I suppose. Also you can{' '}
+            <a href="mailto:sergei-b84@bk.ru">write me</a> .
         </p>
     </footer>
 );

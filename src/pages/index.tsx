@@ -48,9 +48,7 @@ export default function Home() {
 
                     <a href="/projects" className={styles.card}>
                         <Title tag="h4">Projects &rarr;</Title>
-                        <p>
-                            Learn more about my projects on GitHub!
-                        </p>
+                        <p>Learn more about my projects on GitHub!</p>
                     </a>
 
                     <a href="/writing" className={styles.card}>

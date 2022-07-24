@@ -7,12 +7,15 @@ const useInterval = (callback: () => void, delay?: number) => {
 
     // Remember the latest callback.
     useEffect(() => {
+        // @ts-ignore
         savedCallback.current = callback;
     }, [callback]);
 
     // Set up the interval.
+    // @ts-ignore
     useEffect(() => {
         const tick = () => {
+            // @ts-ignore
             savedCallback.current();
         };
 

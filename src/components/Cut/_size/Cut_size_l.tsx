@@ -14,4 +14,6 @@ export interface ICutSizeLProps {
  * Модификатор, отвечающий за размер.
  * @param {ICutSizeLProps} props
  */
+
+// @ts-ignore
 export const withSizeL = withBemMod<ICutSizeLProps>(cnCut(), { size: 'l' });
