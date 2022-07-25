@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 import { BaseLayout } from '../../components/layouts/BaseLayout';
 import { Button } from '../../components/Button';
@@ -9,6 +10,10 @@ import style from './Writing.module.scss';
 function Writing() {
     return (
         <BaseLayout>
+            <Head>
+                <title>Sergey Bocharov - Writing</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Title tag="h1">Writing</Title>
             <Section>
                 <ul>

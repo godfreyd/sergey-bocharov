@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { BaseLayout } from '../../components/layouts/BaseLayout';
 import { Button } from '../../components/Button';
 import { Title } from '../../components/Title';
@@ -65,6 +66,10 @@ const Experiences = [
 
 const About = () => (
     <BaseLayout>
+        <Head>
+            <title>Sergey Bocharov - About</title>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
         <Title tag="h1">About</Title>
         <Section>
             <p>
