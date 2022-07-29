@@ -15,7 +15,7 @@ function Projects() {
             </Head>
             <Title tag="h1">Projects</Title>
             <Section>
-                <ul>
+                <ol>
                     <li>
                         <Link href="https://github.com/LookingSchools/ui">
                             <a target="_blank">
@@ -28,6 +28,16 @@ function Projects() {
                                 <a target="_blank">Demo</a>
                             </Link>
                             .
+                        </p>
+                    </li>
+                    <li>
+                        <Link href="https://github.com/godfreyd/html-csp-hash-generator">
+                            <a target="_blank">
+                                <code>html-csp-hash-generator</code>
+                            </a>
+                        </Link>
+                        <p>
+                            Tool to generate hash for inline scripts and styles for CSP.
                         </p>
                     </li>
                     <li>
@@ -46,7 +56,7 @@ function Projects() {
                         </Link>
                         <p>SSR build on React.</p>
                     </li>
-                </ul>
+                </ol>
             </Section>
             <Button onClick={() => window.history.back()}>Back</Button>
         </BaseLayout>
