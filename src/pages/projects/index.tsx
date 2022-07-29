@@ -31,7 +31,7 @@ function Projects() {
                         </p>
                     </li>
                     <li>
-                        <Link href="https://github.com/godfreyd/html-csp-hash-generator">
+                        <Link href="https://www.npmjs.com/package/html-csp-hash-generator">
                             <a target="_blank">
                                 <code>html-csp-hash-generator</code>
                             </a>
