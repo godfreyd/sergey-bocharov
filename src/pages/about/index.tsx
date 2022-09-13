@@ -5,7 +5,7 @@ import { Button } from '../../components/Button';
 import { Title } from '../../components/Title';
 import { Timeline } from '../../components/Timeline';
 import { Section } from '../../components/Section';
-import style from './About.module.scss';
+import styles from './About.module.scss';
 
 const data = [
     {
@@ -71,10 +71,16 @@ const About = () => (
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Title tag="h1">About</Title>
+  
+        <picture className={styles.User}>
+            <source type="image/webp" srcSet="2.webp"/>
+            <img src="2.jpeg" alt="We"/>
+        </picture>
+
         <Section>
             <p>
-                <span className={style.Subtitle}>Experience:</span>
-                <span className={style.Experiences}>
+                <span className={styles.Subtitle}>Experience:</span>
+                <span className={styles.Experiences}>
                     {Experiences.map(item => (
                         <>
                             <span>
@@ -86,7 +92,7 @@ const About = () => (
             </p>
         </Section>
         <Section>
-            <div className={style.List}>
+            <div className={styles.List}>
                 <Timeline data={data} />
             </div>
         </Section>
