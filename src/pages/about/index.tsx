@@ -18,7 +18,7 @@ const data = [
         position: 'Frontend Team Lead',
         description: {
             visible:
-                'Involved with web apps architecture and developing accessible and responsive interfaces, library and utilities (flowcharting, coding, debugging and documentation), people management. The project involved setting up a micro frontend architecture, switching from Bitrix to React, developing React-component and RUM libraries. Project leader and in charge of overall design and architecture for the last six months.',
+                'Starting my career at Yandex Search in Russia, I had a chance to work at Yandex Cloud, ClickHouse, CatBoost, BEM. Involved with web apps architecture and developing accessible and responsive interfaces, library and utilities (flowcharting, coding, debugging and documentation), people management. The project involved setting up a micro frontend architecture, switching from Bitrix to React, developing React-component and RUM libraries. Project leader and in charge of overall design and architecture for the last six months.',
         },
     },
     {

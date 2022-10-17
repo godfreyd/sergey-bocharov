@@ -14,7 +14,7 @@ export default function Home() {
                 </figure>
 
                 <Title tag="h1">
-                    Hi. I'm{' '}
+                    Hey, I'm{' '}
                     <a
                         target="_blank"
                         href="https://www.linkedin.com/in/bocharovsergey"
@@ -28,12 +28,12 @@ export default function Home() {
                     <Link href="https://www.sberbank.com/index">
                         <a>Sber</a>
                     </Link>
-                    .<br />
-                    I'm especially interested in{' '}
+                    <br/>
+                    in love with the Web and browsers.<br />
+                    My areas of expertise:{' '}
                     <code className={styles.code}>JS</code>,{' '}
-                    <code className={styles.code}>Node.js</code> and{' '}
-                    <code className={styles.code}>Python</code>.<br />I speak at
-                    conferences and make videos.
+                    <code className={styles.code}>Node.js</code>,{' '}
+                    <code className={styles.code}>Python</code> and team culture.<br /> 
                     <br />
                 </p>
                 <div className={styles.Box}>
