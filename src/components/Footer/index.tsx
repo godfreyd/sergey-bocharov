@@ -20,7 +20,6 @@ const links = [
     },
 ]
 
-
 export const Footer: FC = () => (
     <footer className={styles.Footer}>
         <p>
