@@ -18,6 +18,14 @@ function Writing() {
             <Section>
                 <ul>
                     <li>
+                        <span className={style.Date}>03/2022</span>
+                        <Link href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
+                            <a target="_blank">
+                            Debugging-tricks for non-frontend developers
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
                         <span className={style.Date}>06/2018</span>
                         <Link href="https://www.smashingmagazine.com/2018/06/bem-for-beginners/">
                             <a target="_blank">
