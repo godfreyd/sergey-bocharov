@@ -68,13 +68,16 @@ const About = () => (
     <BaseLayout>
         <Head>
             <title>Sergey Bocharov - About</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <meta
+                name="viewport"
+                content="initial-scale=1.0, width=device-width"
+            />
         </Head>
         <Title tag="h1">About</Title>
-  
+
         <picture className={styles.User}>
-            <source type="image/webp" srcSet="2.webp"/>
-            <img src="2.jpeg" alt="We"/>
+            <source type="image/webp" srcSet="2.webp" />
+            <img src="2.jpeg" alt="We" />
         </picture>
 
         <Section>

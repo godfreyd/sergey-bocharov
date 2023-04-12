@@ -12,7 +12,10 @@ function Writing() {
         <BaseLayout>
             <Head>
                 <title>Sergey Bocharov - Writing</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
             </Head>
             <Title tag="h1">Writing</Title>
             <Section>
@@ -21,7 +24,7 @@ function Writing() {
                         <span className={style.Date}>03/2022</span>
                         <Link href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
                             <a target="_blank">
-                            Debugging-tricks for non-frontend developers
+                                Debugging-tricks for non-frontend developers
                             </a>
                         </Link>
                     </li>

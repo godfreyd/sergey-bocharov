@@ -4,6 +4,7 @@ import { BaseLayout } from '../components/layouts/BaseLayout';
 import { Headline } from '../components/Headline';
 import { Title } from '../components/Title';
 import styles from '../styles/Home.module.scss';
+import { Meeting } from 'src/components/Meeting';
 
 export default function Home() {
     return (
@@ -23,20 +24,29 @@ export default function Home() {
                         Sergey Bocharov
                     </a>
                 </Title>
-                <p className={styles.description}>
+                <div className={styles.description}>
+                <Meeting/>
+                
+                <p >
                     I’m a frontend team lead at{' '}
                     <Link href="https://www.sberbank.com/index">
                         <a>Sber</a>
                     </Link>
-                    <br/>
-                    in love with the Web and browsers.<br />
+                    <br />
+                    in love with the Web and browsers.
+                    <br />
                     My areas of expertise:{' '}
                     <code className={styles.code}>JS</code>,{' '}
                     <code className={styles.code}>Node.js</code>,{' '}
-                    <code className={styles.code}>Python</code> and team culture.<br /> 
+                    <code className={styles.code}>Python</code> and team
+                    culture.
+                    <br />
                     <br />
                 </p>
+                </div>
+                
                 <div className={styles.Box}>
+                   
                     <p>I make magical ...</p>
                     <Headline />
                 </div>

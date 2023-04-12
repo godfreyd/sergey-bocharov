@@ -12,7 +12,10 @@ function Speaking() {
         <BaseLayout>
             <Head>
                 <title>Sergey Bocharov - Speaking</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
             </Head>
             <Title tag="h1">Speaking</Title>
             <Section>

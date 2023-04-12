@@ -11,7 +11,10 @@ function Projects() {
         <BaseLayout>
             <Head>
                 <title>Sergey Bocharov - Projects</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
             </Head>
             <Title tag="h1">Projects</Title>
             <Section>
@@ -37,7 +40,8 @@ function Projects() {
                             </a>
                         </Link>
                         <p>
-                            Tool to generate hash for inline scripts and styles for CSP.
+                            Tool to generate hash for inline scripts and styles
+                            for CSP.
                         </p>
                     </li>
                     <li>

@@ -9,16 +9,27 @@
     "lint": "npm run lint:ts && npm run lint:eslint",
     "lint:ts": "tsc --noEmit -p ./tsconfig.json",
     "lint:eslint": "eslint . --quiet --report-unused-disable-directives --ext .ts,.tsx",
-    "lint:eslint-fix": "eslint . --fix --quiet --report-unused-disable-directives --ext .ts,.tsx"
+    "lint:eslint:fix": "eslint . --fix --quiet --report-unused-disable-directives --ext .ts,.tsx",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@bem-react/classname": "^1.5.12",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "gsap": "^3.10.4",
     "next": "12.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/blocks": "^7.0.4",
+    "@storybook/nextjs": "^7.0.4",
+    "@storybook/react": "^7.0.4",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
@@ -34,9 +45,11 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.11",
     "jest": "^28.1.2",
     "prettier": "^2.7.1",
     "sass": "^1.53.0",
+    "storybook": "^7.0.4",
     "typescript": "4.7.4"
   }
 }
