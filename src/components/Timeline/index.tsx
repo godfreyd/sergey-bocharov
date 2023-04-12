@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Title } from '../Title';
 import { Cut } from '../Cut';
 import styles from './Timeline.module.scss';

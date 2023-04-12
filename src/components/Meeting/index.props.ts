@@ -1,3 +1,1 @@
-export interface IMeetingProps {
-     
-}
+export interface IMeetingProps {}

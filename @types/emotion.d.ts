@@ -1,3 +1,3 @@
-import "@emotion/react";
+import '@emotion/react';
 
-declare module "@emotion/react" {}
+declare module '@emotion/react' {}

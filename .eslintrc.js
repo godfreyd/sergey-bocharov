@@ -53,6 +53,7 @@ module.exports = {
       ignoreRegExpLiterals: true,
       ignoreTrailingComments: true
     }],
+    'react/react-in-jsx-scope': 'warn',
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react/no-unused-prop-types': 'error',

@@ -6,7 +6,7 @@
 
 ```ts
 // src/App.ts
-import React from 'react';
+
 import { Title } from '@@npm-registry/eapteka-ui/Title/bundle';
 
 const App = () => (

@@ -1,4 +1,4 @@
-import React, { ReactNode, FC, CSSProperties, Ref, RefObject } from 'react';
+import { ReactNode, FC, CSSProperties, Ref, RefObject } from 'react';
 import { cn } from '@bem-react/classname';
 
 export const cnTitle = cn('Title');

@@ -1,4 +1,4 @@
-import React, { FC, useRef, useEffect, useState } from 'react';
+import { FC, useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import styles from './Headline.module.scss';
 
