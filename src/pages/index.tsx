@@ -10,7 +10,7 @@ export default function Home() {
         <BaseLayout>
             <>
                 <figure className={styles.user}>
-                    <img src="/sergeybocharov.jpg" alt="Sergey Bocharov" />
+                    <img src="/sergeybocharov2.jfif" alt="Sergey Bocharov" />
                 </figure>
 
                 <Title tag="h1">
@@ -25,15 +25,57 @@ export default function Home() {
                 </Title>
                 <div className={styles.description}>
                     <Meeting />
-
                     <p>
                         I’m a frontend team lead at{' '}
-                        <Link href="https://www.sberbank.com/index">
+                        <Link
+                            target="_blank"
+                            href="https://www.sberbank.com/index"
+                        >
                             <a>Sber</a>
                         </Link>
-                        <br />
-                        in love with the Web and browsers.
-                        <br />
+                        . Ex{' '}
+                        <Link
+                            target="_blank"
+                            href="https://yandex.com/company/"
+                        >
+                            Yandex
+                        </Link>
+                        .
+                    </p>
+                    <p>I love web, quality code and good UX.</p>
+                    <p>
+                        My projects:{' '}
+                        <Link target="_blank" href="https://en.bem.info/">
+                            BEM methodology
+                        </Link>
+                        ,{' '}
+                        <Link
+                            target="_blank"
+                            href="https://github.com/bem/yandex-ui"
+                        >
+                            Yandex UI (LEGO)
+                        </Link>
+                        ,{' '}
+                        <Link
+                            target="_blank"
+                            href="https://cloud.yandex.com/en/"
+                        >
+                            Yandex Cloud
+                        </Link>
+                        ,{' '}
+                        <Link target="_blank" href="https://www.eapteka.ru/">
+                            Sber Eapteka
+                        </Link>
+                        ,{' '}
+                        <Link
+                            target="_blank"
+                            href="https://norilsk.city.online/"
+                        >
+                            City Online
+                        </Link>
+                        .
+                    </p>
+                    <p>
                         My areas of expertise:{' '}
                         <code className={styles.code}>JS</code>,{' '}
                         <code className={styles.code}>Node.js</code>,{' '}
@@ -42,6 +84,7 @@ export default function Home() {
                         <br />
                         <br />
                     </p>
+  
                 </div>
 
                 <div className={styles.Box}>
