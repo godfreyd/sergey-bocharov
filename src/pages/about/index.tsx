@@ -35,7 +35,8 @@ const data = [
             name: 'Yandex',
             url: 'https://yandex.com/company/',
         },
-        position: 'Staff frontend developer/Head of technical documentation group',
+        position:
+            'Staff frontend developer/Head of technical documentation group',
         description: {
             visible:
                 'Responsible for rewriting the main UI Library from i-bem.js to React + Typescript. Designed, implemented and optimized multiple tools for the development of technical documentation infrastructure and services (builders, linters, libraries). Developed internal solution for continuous integration.',

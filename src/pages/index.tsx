@@ -91,17 +91,17 @@ export default function Home() {
                     <Headline />
                 </div>
                 <div className={styles.grid}>
-                    <a href="/about" className={styles.card}>
+                    <a href="/about" className={styles.card1}>
                         <Title tag="h4">About &rarr;</Title>
                         <p>Find more information about me.</p>
                     </a>
 
-                    <a href="/projects" className={styles.card}>
+                    <a href="/projects" className={styles.card2}>
                         <Title tag="h4">Projects &rarr;</Title>
                         <p>Learn more about my projects on GitHub!</p>
                     </a>
 
-                    <a href="/writing" className={styles.card}>
+                    <a href="/writing" className={styles.card3}>
                         <Title tag="h4">Writing &rarr;</Title>
                         <p>
                             Sometimes I write for Smashing Magazine, Medium, and
@@ -109,7 +109,7 @@ export default function Home() {
                         </p>
                     </a>
 
-                    <a href="/speaking" className={styles.card}>
+                    <a href="/speaking" className={styles.card4}>
                         <Title tag="h4">Speaking &rarr;</Title>
                         <p>
                             These are conferences I will or have spoken at, as
