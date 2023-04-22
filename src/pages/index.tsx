@@ -84,7 +84,6 @@ export default function Home() {
                         <br />
                         <br />
                     </p>
-  
                 </div>
 
                 <div className={styles.Box}>

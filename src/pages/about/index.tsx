@@ -17,8 +17,16 @@ const data = [
         position: 'Frontend Team Lead',
         description: {
             visible:
-                'Starting my career at Yandex Search in Russia, I had a chance to work at Yandex Cloud, ClickHouse, CatBoost, BEM. Involved with web apps architecture and developing accessible and responsive interfaces, library and utilities (flowcharting, coding, debugging and documentation), people management. The project involved setting up a micro frontend architecture, switching from Bitrix to React, developing React-component and RUM libraries. Project leader and in charge of overall design and architecture for the last six months.',
+                'Build a new front-end in Sber Eapteka. Lead of front-end developers in several projects. Author and maintainer of main UI library for Sber Eapteka services.',
         },
+        achievements: [
+            'Reduced onboarding time for new developers by 4 times',
+            'Developed the project architecture. Moved the project to microservice architecture',
+            'Created a perfect team that could achieve tough goals. As a result, we have been growing by 1-3 story points for the 6th sprint',
+            'Changed a business scheme of cooperation with partners to the better one',
+            'Stabilized and unified CI/CD',
+            'Coordinated with other teams to solve issues',
+        ],
     },
     {
         startDate: '05/2016',
@@ -27,11 +35,15 @@ const data = [
             name: 'Yandex',
             url: 'https://yandex.com/company/',
         },
-        position: 'Frontend developer/Head of technical documentation group',
+        position: 'Staff frontend developer/Head of technical documentation group',
         description: {
             visible:
-                'Design and put together a system for generating documentation from DITA, Markdown, JSON, JS formats. The software has been fully tested using and prototype. The software was written mainly in Node.js, TypeScript. Also worked on Compute Cloud, BEM, Lego, Yandex.Market, CatBoost, ClickHouse, etc.',
+                'Responsible for rewriting the main UI Library from i-bem.js to React + Typescript. Designed, implemented and optimized multiple tools for the development of technical documentation infrastructure and services (builders, linters, libraries). Developed internal solution for continuous integration.',
         },
+        achievements: [
+            'Built UI libraries and SSR for some projects',
+            'Coordinated with other teams to solve issues',
+        ],
     },
 ];
 

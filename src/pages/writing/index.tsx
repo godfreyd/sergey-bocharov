@@ -18,7 +18,7 @@ function Writing() {
             </Head>
             <Title tag="h1">Writing</Title>
             <Section>
-                <ul>
+                <ul className={style.List}>
                     <li>
                         <span className={style.Date}>03/2022</span>
                         <Link href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
