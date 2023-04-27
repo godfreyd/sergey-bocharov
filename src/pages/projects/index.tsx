@@ -33,6 +33,16 @@ function Projects() {
                         </p>
                     </li>
                     <li>
+                        <Link href="https://github.com/LookingSchools/ui">
+                            <a target="_blank">
+                                <code>ls-ui</code>
+                            </a>
+                        </Link>
+                        <p>
+                            UI Kit build on React with CSS in JS.
+                        </p>
+                    </li>
+                    <li>
                         <Link href="https://www.npmjs.com/package/html-csp-hash-generator">
                             <a target="_blank">
                                 <code>html-csp-hash-generator</code>
