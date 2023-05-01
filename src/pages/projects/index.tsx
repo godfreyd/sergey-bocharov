@@ -38,9 +38,7 @@ function Projects() {
                                 <code>ls-ui</code>
                             </a>
                         </Link>
-                        <p>
-                            UI Kit build on React with CSS in JS.
-                        </p>
+                        <p>UI Kit build on React with CSS in JS.</p>
                     </li>
                     <li>
                         <Link href="https://www.npmjs.com/package/html-csp-hash-generator">
