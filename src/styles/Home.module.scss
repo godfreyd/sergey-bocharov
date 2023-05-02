@@ -34,20 +34,6 @@
 }
 
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-
-  @media (max-width: 600px) {
-    & {
-      width: 100%;
-      flex-direction: column;
-    }
-  }
-}
 
 .card1 {
     background: linear-gradient(270deg, #de83fd, #9aaef7);

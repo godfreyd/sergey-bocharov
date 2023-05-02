@@ -31,6 +31,22 @@ max-width: 340px;
   color: #0070f3;
   border-color: #0070f3;
 }
-
-
 `;
+
+
+
+export const StyledGrid = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+
+  @media (max-width: 600px) {
+    & {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+`
+
