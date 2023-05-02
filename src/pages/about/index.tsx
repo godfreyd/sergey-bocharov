@@ -74,6 +74,7 @@ const Experiences = [
     'CatBoost',
     'PyTorch',
     'TensorFlow',
+    'Socket.io'
 ];
 
 const About = () => (
@@ -98,8 +99,8 @@ const About = () => (
                 <span className={styles.Experiences}>
                     {Experiences.map(item => (
                         <>
-                            <span>
-                                <code key={item}>{item}</code>
+                            <span key={item}>
+                                <code>{item}</code>
                             </span>{' '}
                         </>
                     ))}
