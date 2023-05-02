@@ -7,6 +7,9 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  env: {
+    GOOGLE_ANALYTICS_ID: 'G-CNJ57JP8WE',
+  },
 }
 
 module.exports = nextConfig

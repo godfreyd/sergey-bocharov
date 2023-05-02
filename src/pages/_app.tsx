@@ -8,8 +8,6 @@ import type { AppProps } from 'next/app';
 function MyApp({ Component, pageProps }: AppProps) {
     useEffect(() => {
         const services = [];
-
-        console.log('++++++', GOOGLE_ANALYTICS_ID)
         services.push(new GoogleMetrics(GOOGLE_ANALYTICS_ID));
 
         MetricsService.init(services);

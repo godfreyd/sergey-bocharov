@@ -31,10 +31,10 @@ export const Footer: FC = () => (
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <a>
-                            <img alt="Twitter" src={item.src} />
+                        
+                        <img alt="Twitter" src={item.src} />
                             {item.name}
-                        </a>
+                        
                     </Link>
                     {item.name === 'GitHub' ? ' ' : ', '}
                 </span>

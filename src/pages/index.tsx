@@ -31,7 +31,7 @@ export default function Home() {
                             target="_blank"
                             href="https://www.sberbank.com/index"
                         >
-                            <a>Sber</a>
+                            Sber
                         </Link>
                         . Ex{' '}
                         <Link
