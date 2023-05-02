@@ -4,6 +4,7 @@ import { BaseLayout } from '../components/layouts/BaseLayout';
 import { Headline } from '../components/Headline';
 import { Title } from '../components/Title';
 import styles from '../styles/Home.module.scss';
+import { StyledCard } from './styles';
 
 export default function Home() {
     return (
@@ -91,31 +92,31 @@ export default function Home() {
                     <Headline />
                 </div>
                 <div className={styles.grid}>
-                    <a href="/about" className={styles.card1}>
+                    <StyledCard href="/about" className={styles.card1}>
                         <Title tag="h4">About &rarr;</Title>
                         <p>Find more information about me.</p>
-                    </a>
+                    </StyledCard>
 
-                    <a href="/projects" className={styles.card2}>
+                    <StyledCard href="/projects" className={styles.card2}>
                         <Title tag="h4">Projects &rarr;</Title>
                         <p>Learn more about my projects on GitHub!</p>
-                    </a>
+                    </StyledCard>
 
-                    <a href="/writing" className={styles.card3}>
+                    <StyledCard href="/writing" className={styles.card3}>
                         <Title tag="h4">Writing &rarr;</Title>
                         <p>
                             Sometimes I write for Smashing Magazine, Medium, and
                             others. My writing on this site is mostly personal.
                         </p>
-                    </a>
+                    </StyledCard>
 
-                    <a href="/speaking" className={styles.card4}>
+                    <StyledCard href="/speaking" className={styles.card4}>
                         <Title tag="h4">Speaking &rarr;</Title>
                         <p>
                             These are conferences I will or have spoken at, as
                             well as summaries of the talks I’ve given.
                         </p>
-                    </a>
+                    </StyledCard>
                 </div>
             </>
         </BaseLayout>
