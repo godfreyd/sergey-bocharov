@@ -1,25 +1,17 @@
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-import MetricsService, { MetricInstance } from '../../index';
+import MetricsService from '../../index';
 
-export class GoogleMetrics extends MetricInstance {
+export class GoogleMetrics {
     code: string;
 
     constructor(code: string) {
-        super();
-
         this.code = code;
         this.initialize();
     }
 
     initialize = () => {
-        ReactGA.initialize(this.code, {
-            debug: false,
-        });
-    };
-
-    changedPage = (url: string) => {
-        ReactGA.pageview(url);
+        ReactGA.initialize(this.code);
     };
 
     setUserID = (userId: string) => {

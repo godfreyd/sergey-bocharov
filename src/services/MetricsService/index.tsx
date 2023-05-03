@@ -1,18 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-export abstract class MetricInstance {
-    abstract changedPage(url: string, options: any): void;
-}
 
 export type Constructor<T> = new (...args: any[]) => T;
 
 class MetricsService {
-    modules: MetricInstance[] = [];
+    modules: any[] = [];
 
     private isInit = false;
 
     private initedCbs: Function[] = [];
 
-    init = (modules: MetricInstance[]) => {
+    init = (modules: any[]) => {
         this.modules = modules;
         this.isInit = true;
         this.OnInitedHandler();
@@ -21,10 +18,6 @@ class MetricsService {
     OnInited = (cb: Function) => {
         if (this.isInit) cb();
         else this.initedCbs.push(cb);
-    };
-
-    changedPage = (url: string, options?: any) => {
-        this.modules.forEach(metric => metric.changedPage(url, options));
     };
 
     get<TInput = any, TResult = TInput>(

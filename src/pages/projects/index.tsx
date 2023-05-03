@@ -19,32 +19,26 @@ function Projects() {
             <Section>
                 <ol>
                     <li>
-                        <Link href="https://github.com/LookingSchools/ui">
-                            <a target="_blank">
-                                <code>@lookingschools/ui</code>
-                            </a>
+                        <Link target="_blank" href="https://github.com/LookingSchools/ui">
+                            <code>@lookingschools/ui</code>
                         </Link>
                         <p>
                             UI Kit build on React.{' '}
-                            <Link href="http://godfreyd.github.io/dist/?path=/story/amountpicker--playground">
-                                <a target="_blank">Demo</a>
+                            <Link target="_blank" href="http://godfreyd.github.io/dist/?path=/story/amountpicker--playground">
+                                Demo
                             </Link>
                             .
                         </p>
                     </li>
                     <li>
-                        <Link href="https://github.com/LookingSchools/ui">
-                            <a target="_blank">
-                                <code>ls-ui</code>
-                            </a>
+                        <Link target="_blank" href="https://github.com/LookingSchools/ui">
+                            <code>ls-ui</code>
                         </Link>
                         <p>UI Kit build on React with CSS in JS.</p>
                     </li>
                     <li>
-                        <Link href="https://www.npmjs.com/package/html-csp-hash-generator">
-                            <a target="_blank">
-                                <code>html-csp-hash-generator</code>
-                            </a>
+                        <Link target="_blank" href="https://www.npmjs.com/package/html-csp-hash-generator">
+                            <code>html-csp-hash-generator</code>
                         </Link>
                         <p>
                             Tool to generate hash for inline scripts and styles
@@ -52,18 +46,14 @@ function Projects() {
                         </p>
                     </li>
                     <li>
-                        <Link href="https://github.com/bem/yandex-ui">
-                            <a target="_blank">
+                        <Link target="_blank" href="https://github.com/bem/yandex-ui">
                                 <code>@yandex/ui</code>
-                            </a>
                         </Link>
                         <p>Yandex UI Kit build on React and bem-react.</p>
                     </li>
                     <li>
-                        <Link href="https://github.com/godfreyd/react-redux-ssr">
-                            <a target="_blank">
-                                <code>react-redux-ssr</code>
-                            </a>
+                        <Link target="_blank" href="https://github.com/godfreyd/react-redux-ssr">
+                            <code>react-redux-ssr</code>
                         </Link>
                         <p>SSR build on React.</p>
                     </li>

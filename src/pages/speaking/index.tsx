@@ -19,35 +19,44 @@ function Speaking() {
             <Title tag="h1">Speaking</Title>
             <Section>
                 <div className={styles.grid}>
-                    <Link href="https://www.youtube.com/watch?v=Uo-W9glG1pc">
-                        <a target="_blank" className={styles.card}>
-                            <img
-                                className={styles.img}
-                                src="battle.png"
-                                alt="Гипербатон: Battle for the
-    Stars"
-                            />
-                            <Title tag="h5">Yandex Hyperbaton &rarr;</Title>
-                            <p className={styles.name}>
-                                Battle for the Stars: The role of documentation
-                                in open source
-                            </p>
-                            <p className={styles.date}>05/2019</p>
-                        </a>
+                <Link target="_blank" className={styles.card} href="https://jsnation.com">
+                        <img
+                            className={styles.img}
+                            style={{height: 'auto', width: '240px'}}
+                            src="jsnation.svg"
+                            alt="The main JS conference of 2023"
+                        />
+                        <Title tag="h5">JS Nation &rarr;</Title>
+                        <p className={styles.name}>
+                        Responsive Images for Your Website
+                        </p>
+                        <p className={styles.date}>06/2023</p>
                     </Link>
-                    <Link href="https://www.youtube.com/watch?v=ifydjGoDMU4">
-                        <a target="_blank" className={styles.card}>
-                            <img
-                                className={styles.img}
-                                src="sir-markdown.png"
-                                alt="Мини-Гипербатон: Sir Markdown"
-                            />
-                            <Title tag="h5">
-                                Yandex Mini Hyperbaton &rarr;
-                            </Title>
-                            <p className={styles.name}>Sir Markdown</p>
-                            <p className={styles.date}>09/2017</p>
-                        </a>
+                    <Link target="_blank" className={styles.card} href="https://www.youtube.com/watch?v=Uo-W9glG1pc">
+                        <img
+                            className={styles.img}
+                            src="battle.png"
+                            alt="Гипербатон: Battle for the
+Stars"
+                        />
+                        <Title tag="h5">Yandex Hyperbaton &rarr;</Title>
+                        <p className={styles.name}>
+                            Battle for the Stars: The role of documentation
+                            in open source
+                        </p>
+                        <p className={styles.date}>05/2019</p>
+                    </Link>
+                    <Link target="_blank" className={styles.card} href="https://www.youtube.com/watch?v=ifydjGoDMU4">
+                        <img
+                            className={styles.img}
+                            src="sir-markdown.png"
+                            alt="Мини-Гипербатон: Sir Markdown"
+                        />
+                        <Title tag="h5">
+                            Yandex Mini Hyperbaton &rarr;
+                        </Title>
+                        <p className={styles.name}>Sir Markdown</p>
+                        <p className={styles.date}>09/2017</p>
                     </Link>
                 </div>
             </Section>
