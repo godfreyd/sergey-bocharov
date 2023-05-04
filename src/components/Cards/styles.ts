@@ -4,14 +4,14 @@ import Link from 'next/link';
 export const StyledCard = styled(Link)`
 margin: 1rem;
 padding: 1.5rem;
-min-height: 460px;
+min-height: 320px;
 text-align: left;
 color: inherit;
 text-decoration: none;
 border: 1px solid #eaeaea;
 border-radius: 10px;
 transition: color 0.15s ease, border-color 0.15s ease;
-max-width: 340px;
+max-width: 300px;
 
 
 & h2 {
@@ -21,7 +21,7 @@ max-width: 340px;
 
 & p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
