@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Meeting } from 'src/components/Meeting';
 import { BaseLayout } from '../components/layouts/BaseLayout';
 import { Headline } from '../components/Headline';
 import { Title } from '../components/Title';
@@ -25,7 +24,6 @@ export default function Home() {
                     </a>
                 </Title>
                 <div className={styles.description}>
-                    <Meeting />
                     <p>
                         I’m a frontend team lead at{' '}
                         <Link
