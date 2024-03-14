@@ -68,7 +68,7 @@ export default function Home() {
                         ,{' '}
                         <Link
                             target="_blank"
-                            href="https://norilsk.city.online/"
+                            href="https://online-city.ru/"
                         >
                             City Online
                         </Link>
