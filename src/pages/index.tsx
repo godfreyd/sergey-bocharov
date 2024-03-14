@@ -10,9 +10,8 @@ export default function Home() {
         <BaseLayout>
             <>
                 <figure className={styles.user}>
-                    <img src="/sergeybocharov2.jfif" alt="Sergey Bocharov" />
+                    <img src="/sergeybocharov.jfif" alt="Sergey Bocharov" />
                 </figure>
-
                 <Title tag="h1">
                     Hey, I'm{' '}
                     <a
