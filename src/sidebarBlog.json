@@ -1,0 +1,24 @@
+{
+  "title": "Blog",
+  "path": "/blog",
+  "routes": [
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "STAY INFORMED"
+    },
+    {
+      "title": "Blog",
+      "path": "/blog",
+      "skipBreadcrumb": true,
+      "routes": [
+        {
+          "title": "React Canaries: Enabling Incremental Feature Rollout Outside Meta",
+          "titleForHomepage": "React Canaries: Incremental Feature Rollout",
+          "icon": "blog",
+          "date": "May 3, 2023",
+          "path": "/blog/2024/03/19/react-canaries"
+        }
+      ]
+    }
+  ]
+}

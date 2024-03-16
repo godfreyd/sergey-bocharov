@@ -1,4 +1,4 @@
-import { FC, MouseEventHandler } from 'react';
+import { FC, MouseEventHandler, ReactNode } from 'react';
 import styles from './Button.module.scss';
 
 export type ContainerElement = HTMLButtonElement | HTMLAnchorElement;
@@ -8,7 +8,7 @@ interface IButton {
     /**
      * Текст кнопки.
      */
-    children?: string;
+    children?: ReactNode;
     /**
      * Обработчик клика на кнопку
      */

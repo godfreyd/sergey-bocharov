@@ -3,7 +3,7 @@ import { BaseLayout } from '../components/layouts/BaseLayout';
 import { Headline } from '../components/Headline';
 import { Title } from '../components/Title';
 import styles from '../styles/Home.module.scss';
-import { Cards } from 'src/components/Cards';
+import { Cards } from '../components/Cards';
 
 export default function Home() {
     return (
