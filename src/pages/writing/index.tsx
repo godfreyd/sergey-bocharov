@@ -21,26 +21,20 @@ function Writing() {
                 <ul className={style.List}>
                     <li>
                         <span className={style.Date}>03/2022</span>
-                        <Link href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
-                            <a target="_blank">
-                                Debugging-tricks for non-frontend developers
-                            </a>
+                        <Link target="_blank" href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
+                            Debugging-tricks for non-frontend developers
                         </Link>
                     </li>
                     <li>
                         <span className={style.Date}>06/2018</span>
-                        <Link href="https://www.smashingmagazine.com/2018/06/bem-for-beginners/">
-                            <a target="_blank">
-                                BEM For Beginners: Why You Need BEM (co-author)
-                            </a>
+                        <Link target="_blank" href="https://www.smashingmagazine.com/2018/06/bem-for-beginners/">
+                            BEM For Beginners: Why You Need BEM (co-author)
                         </Link>
                     </li>
                     <li>
                         <span className={style.Date}>09/2017</span>
-                        <Link href="https://habr.com/ru/company/yandex/blog/337166/">
-                            <a target="_blank">
-                                Switching to the server side with bem-express
-                            </a>
+                        <Link target="_blank" href="https://habr.com/ru/company/yandex/blog/337166/">
+                            Switching to the server side with bem-express
                         </Link>
                     </li>
                 </ul>
