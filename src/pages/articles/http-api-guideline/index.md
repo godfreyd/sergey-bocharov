@@ -13,7 +13,7 @@ import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-bash";
 import "prismjs/components/prism-typescript";
 
-function ApiGuidline({content}) {
+function ApiGuidline({content}: any) {
     return (
         <BaseLayout>
             <Head>
