@@ -3,7 +3,6 @@ import { BaseLayout } from '../../../components/layouts/BaseLayout';
 import { Button } from '../../../components/Button';
 import { Title } from '../../../components/Title';
 import { Section } from '../../../components/Section';
-import style from './index.module.scss';
 import rehypePrism from "rehype-prism";
 import "prismjs/themes/prism-coy.css";
 import "prismjs/plugins/line-numbers/prism-line-numbers.css";
