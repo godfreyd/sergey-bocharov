@@ -20,6 +20,12 @@ function Writing() {
             <Section>
                 <ul className={style.List}>
                     <li>
+                        <span className={style.Date}>05/2025</span>
+                        <Link target="_blank" href="https://medium.com/@sergey-bocharov/organizing-crud-operations-with-next-js-and-tanstack-query-63d53e539608">
+                            Organizing CRUD operations with Next.js and TanStack Query
+                        </Link>
+                    </li>
+                    <li>
                         <span className={style.Date}>03/2022</span>
                         <Link target="_blank" href="https://medium.com/@sergey-bocharov/debugging-tricks-for-non-frontend-developers-c41360fd38b6">
                             Debugging-tricks for non-frontend developers
