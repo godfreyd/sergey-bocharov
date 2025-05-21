@@ -22,7 +22,7 @@ function Writing() {
                     <li>
                         <span className={style.Date}>05/2025</span>
                         <Link target="_blank" href="https://medium.com/@sergey-bocharov/organizing-crud-operations-with-next-js-and-tanstack-query-63d53e539608">
-                            Organizing CRUD operations with Next.js and TanStack Query
+                            Mastering CRUD Operations with Next.js and TanStack Query
                         </Link>
                     </li>
                     <li>
