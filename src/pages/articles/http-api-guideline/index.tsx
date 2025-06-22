@@ -1,3 +1,4 @@
+import Prism from 'prismjs';
 import Head from 'next/head';
 import { BaseLayout } from '../../../components/layouts/BaseLayout';
 import { Button } from '../../../components/Button';
