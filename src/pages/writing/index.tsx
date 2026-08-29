@@ -21,6 +21,12 @@ function Writing() {
 				<ul className={style.List}>
 					<li>
 						<span className={style.Date}>08/2026</span>
+						<Link target="_blank" href="https://medium.com/@sergey-bocharov/ai-agents-are-great-your-engineering-system-isnt-ready-for-them-c71db8e67ea7">
+							AI Agents Are Great. Your Engineering System Isn’t Ready for Them
+						</Link>
+					</li>
+					<li>
+						<span className={style.Date}>08/2026</span>
 						<Link target="_blank" href="https://dev.to/bocharov/you-dont-modularise-a-frontend-by-moving-files-c6o">
 							You Don't Modularise a Frontend by Moving Files
 						</Link>
