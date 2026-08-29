@@ -21,6 +21,12 @@ function Writing() {
 				<ul className={style.List}>
 					<li>
 						<span className={style.Date}>08/2026</span>
+						<Link target="_blank" href="https://dev.to/bocharov/you-dont-modularise-a-frontend-by-moving-files-c6o">
+							You Don't Modularise a Frontend by Moving Files
+						</Link>
+					</li>
+					<li>
+						<span className={style.Date}>08/2026</span>
 						<Link target="_blank" href="https://dev.to/bocharov/teaching-an-ai-to-review-frontend-code-1cc8">
 							Teaching an AI to Review Frontend Code
 						</Link>
