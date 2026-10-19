@@ -20,6 +20,12 @@ function Writing() {
 			<Section>
 				<ul className={style.List}>
 					<li>
+						<span className={style.Date}>10/2026</span>
+						<Link target="_blank" href="https://dev.to/bocharov/from-100-million-events-to-1200-pixels-engineering-a-data-heavy-dashboard-30ke">
+							From 100 Million Events to 1,200 Pixels: Engineering a Data-Heavy Dashboard
+						</Link>
+					</li>
+					<li>
 						<span className={style.Date}>08/2026</span>
 						<Link target="_blank" href="https://medium.com/@sergey-bocharov/ai-agents-are-great-your-engineering-system-isnt-ready-for-them-c71db8e67ea7">
 							AI Agents Are Great. Your Engineering System Isn’t Ready for Them
