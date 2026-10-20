@@ -21,6 +21,12 @@ function Writing() {
 				<ul className={style.List}>
 					<li>
 						<span className={style.Date}>10/2026</span>
+						<Link target="_blank" href="https://medium.com/@sergey-bocharov/40-engineering-practices-for-building-reliable-software-with-coding-agents-2072e628ab4d">
+							40 Engineering Practices for Building Reliable Software with Coding Agents
+						</Link>
+					</li>
+					<li>
+						<span className={style.Date}>10/2026</span>
 						<Link target="_blank" href="https://dev.to/bocharov/from-100-million-events-to-1200-pixels-engineering-a-data-heavy-dashboard-30ke">
 							From 100 Million Events to 1,200 Pixels: Engineering a Data-Heavy Dashboard
 						</Link>

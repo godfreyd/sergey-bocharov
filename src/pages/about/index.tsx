@@ -8,24 +8,57 @@ import styles from './About.module.scss';
 
 const data = [
     {
-        startDate: '11/2020',
+        startDate: '08/2023',
         endDate: 'Present',
+        employer: {
+            name: 'Emerging Travel Group',
+            url: 'https://www.emergingtravel.com',
+        },
+        position: 'Senior Frontend Engineer',
+        description: {
+            visible:
+                'Building product features end to end: React and TypeScript in the browser, Node.js services and AWS Lambda on the backend.',
+        },
+        achievements: [
+            'Shipped two-factor authentication across the frontend and backend',
+            'Made core user flows load 15% faster by profiling React rendering and reworking API requests',
+            'Take features from technical design and prototype all the way to production',
+        ],
+    },
+    {
+        startDate: '02/2022',
+        endDate: '08/2023',
+        employer: {
+            name: 'Nornickel',
+            url: 'https://nornickel.com',
+        },
+        position: 'Senior Full-Stack Engineer',
+        description: {
+            visible:
+                'Led full-stack development of CityOnline, a platform that brings 30+ municipal services from 5 regions into one place.',
+        },
+        achievements: [
+            'Helped grow daily active users by 25%',
+            'Built real-time public transport tracking on WebSockets and 2GIS, making arrival times 35% more accurate',
+            'Designed REST APIs and PostgreSQL models for order management',
+        ],
+    },
+    {
+        startDate: '05/2021',
+        endDate: '02/2022',
         employer: {
             name: 'Sber',
             url: 'https://www.sberbank.com',
         },
-        position: 'Frontend Team Lead',
+        position: 'Frontend Lead',
         description: {
             visible:
-                'Build a new front-end in Sber Eapteka. Lead of front-end developers in several projects. Author and maintainer of main UI library for Sber Eapteka services.',
+                'Built and led a team of six frontend engineers to re-architect and relaunch the product on a modern stack.',
         },
         achievements: [
-            'Reduced onboarding time for new developers by 4 times',
-            'Developed the project architecture. Moved the project to microservice architecture',
-            'Created a perfect team that could achieve tough goals. As a result, we have been growing by 1-3 story points for the 6th sprint',
-            'Changed a business scheme of cooperation with partners to the better one',
-            'Stabilized and unified CI/CD',
-            'Coordinated with other teams to solve issues',
+            'Owned the frontend architecture and worked through technical design with Sber Devices and Sber Cloud teams',
+            'Set up Real User Monitoring with telemetry in ClickHouse; the performance work it led to cut ad load time by 40%',
+            'Introduced A/B testing with Bayesian analysis to measure conversion and UX changes',
         ],
     },
     {
@@ -35,45 +68,46 @@ const data = [
             name: 'Yandex',
             url: 'https://yandex.com/company/',
         },
-        position:
-            'Staff frontend developer/Head of technical documentation group',
+        position: 'Software Engineer / Engineering Lead',
         description: {
             visible:
-                'Responsible for rewriting the main UI Library from i-bem.js to React + Typescript. Designed, implemented and optimized multiple tools for the development of technical documentation infrastructure and services (builders, linters, libraries). Developed internal solution for continuous integration.',
+                'Built a shared React and TypeScript frontend platform used by around 42 teams, and moved the core corporate UI from i-bem.js to React.',
         },
         achievements: [
-            'Built UI libraries and SSR for some projects',
-            'Coordinated with other teams to solve issues',
+            'Ran the Lerna monorepo where product teams developed their UI packages independently',
+            'Grew the team from 5 to 12 engineers while staying hands-on with code and reviews',
+            'Built SSR infrastructure, internal SDKs and tooling for documentation and web teams',
+            'Helped launch Yandex Cloud by building the Compute Cloud admin interface',
         ],
     },
 ];
 
 const Experiences = [
-    'JavaScript',
     'TypeScript',
+    'JavaScript',
     'Node.js',
-    'Python',
-    'CSS',
-    'HTML',
-    'Docker',
-    'Rollup',
-    'Gulp',
-    'WebPack',
-    'Strapi',
     'React',
-    'Redux',
     'Next.js',
+    'Redux',
+    'Zustand',
+    'GraphQL',
+    'WebSockets',
     'Express',
-    'Git',
-    'SVN',
-    'MySQL',
+    'NestJS',
     'PostgreSQL',
-    'Sequelize',
     'ClickHouse',
+    'DynamoDB',
+    'AWS',
+    'Docker',
+    'Terraform',
+    'Webpack',
+    'Vite',
+    'Lerna',
+    'Jest',
+    'Testing Library',
+    'Playwright',
+    'Cypress',
     'CatBoost',
-    'PyTorch',
-    'TensorFlow',
-    'Socket.io'
 ];
 
 const About = () => (
@@ -88,8 +122,8 @@ const About = () => (
         <Title tag="h1">About</Title>
 
         <picture className={styles.User}>
-            <source type="image/webp" srcSet="2.webp" />
-            <img src="2.jpeg" alt="We" />
+            <source type="image/webp" srcSet="photo.webp" />
+            <img src="photo.jpg" alt="Sergey Bocharov" />
         </picture>
 
         <Section>
