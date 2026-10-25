@@ -21,6 +21,12 @@ function Writing() {
 				<ul className={style.List}>
 					<li>
 						<span className={style.Date}>10/2026</span>
+						<Link target="_blank" href="https://dev.to/bocharov/virtualization-isnt-enough-making-long-lists-actually-fast-4cn2">
+							Virtualization Isn't Enough: Making Long Lists Actually Fast
+						</Link>
+					</li>
+					<li>
+						<span className={style.Date}>10/2026</span>
 						<Link target="_blank" href="https://medium.com/@sergey-bocharov/40-engineering-practices-for-building-reliable-software-with-coding-agents-2072e628ab4d">
 							40 Engineering Practices for Building Reliable Software with Coding Agents
 						</Link>
